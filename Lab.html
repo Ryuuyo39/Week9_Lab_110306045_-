@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab</title>
+</head>
+<body>
+	<form>
+		<p>Please fill out this form to help us improve our site.</p>
+		<p><label>Name: <input type="text" name="name" size="25" maxlength="30"></label></p>
+		<p>Comments:<br><textarea rows="6" cols="50">Enter comments here.</textarea></p>
+		<p><label>E-mail Address: <input type="text" name="email" size="36" maxlength="100"></label></p>
+		<p><strong>Things you liked:</strong><br>
+			Site design <input type="checkbox" name="types" value="Site design">
+			Links <input type="checkbox" name="types" value="Links">
+			Ease of use <input type="checkbox" name="types" value="Ease of use">
+			Images <input type="checkbox" name="types" value="Images">
+			Source code<input type="checkbox" name="types" value="Source code">
+		</p>
+		<p><strong>How did you get to our site?:</strong><br>
+			Search engine <input type="radio" name="types" value="Search engine" checked>
+			Links from another site <input type="radio" name="types" value="Links from another site">
+			Deitel.com Web site <input type="radio" name="types" value="Deitel.com Web site">
+			Reference in a book <input type="radio" name="types" value="Reference in a book">
+			Other <input type="radio" name="types" value="Other">
+		</p>
+		<p>Rate our site:
+			<select name="rate">
+				<option value="Amazing">Amazing</option>
+				<option value="Good">Good</option>
+				<option value="Normal">Normal</option>
+				<option value="Bad">Bad</option>
+			</select>
+		</p>
+		<p><input type="submit" value="Submit"> <input type="reset" value="Clear"></p>
+	</form>
+</body>
+</html>
